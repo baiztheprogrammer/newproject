@@ -1,6 +1,6 @@
-number_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-test_list = number_list
-test_list.reverse()
-
-print(test_list)
-
+task_list = ['baiz', 'aijan', 'nurs','maksim','emir', 'nazira', 'zarina']
+i = 0
+while i < len(task_list):
+    if i % 2 == 0:
+        print(f"even index {i}:", task_list[i])
+    i = i + 1
